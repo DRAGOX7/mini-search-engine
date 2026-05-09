@@ -2,11 +2,6 @@
 Phase 7 — RAG-Based Answer Generation
 Uses retrieved top-k documents as context for Gemini to generate answers.
 
-Set your API key:
-  Windows : $env:GEMINI_API_KEY = "AIza..."
-  Mac/Linux: export GEMINI_API_KEY="AIza..."
-
-Install: pip install google-genai
 """
 
 import os

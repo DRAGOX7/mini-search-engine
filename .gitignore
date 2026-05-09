@@ -1,0 +1,35 @@
+# ========================
+# 1. Security & Secrets
+# ========================
+# NEVER commit this file! It contains your GEMINI_API_KEY.
+.env
+
+# ========================
+# 2. Virtual Environments
+# ========================
+# Your active virtual environment directory
+venv/
+env/
+.venv/
+
+# ========================
+# 3. Python Cache & Build
+# ========================
+# Prevents compiled bytecode from cluttering your repo
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# 4. Project Specific Data & Results
+# ========================
+# Large datasets and local outputs should not be pushed to GitHub
+ir_project/data/
+ir_project/results/
+evaluation_scores.json
+
+# ========================
+# 5. IDEs & Editors
+# ========================
+# VS Code specific workspace settings
+.vscode/
