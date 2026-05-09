@@ -1,0 +1,157 @@
+{
+  "1": {
+    "query": "what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .",
+    "answer": "When constructing aeroelastic models of heated high-speed aircraft, the following similarity laws and considerations must be obeyed:\n\n1.  **Derivation Basis**: Similarity laws for aerothermoelastic testing are obtained by nondimensionalizing the governing equations for external aerodynamic flow, internal heat conduction, and structural stress-deflection problems [Doc 3].\n2.  **Material and Thermal Similarity**: If constructed from the same materials as the aircraft and at the same temperature, the model will be thermally similar to the aircraft with respect to heat flow. External loads on the model will also be similar to those on the aircraft [Doc 1].\n3.  **Aerodynamic Heating Simulation**: The model must be subjected to heating and cooling that accurately simulates the aerodynamic heating of the full-scale aircraft [Doc 1].\n4.  **Challenges with Scale Ratio**: Achieving full similitude for a general aerothermoelastic model is very difficult when the scale ratio is other than unity. The primary conflict arises between the free-stream Mach number, Reynolds number, aeroelastic parameter, heat conduction parameter, and thermal expansion parameter [Doc 3].\n5.  **Strategies for Similitude Conflicts**: To address these difficulties, methods include:\n    *   Focusing on specialized situations, such as wing structures, thin solid plate lifting surfaces, or panel flutter, where the aerothermoelastic similarity parameters assume less restrictive forms [Doc 3].\n    *   Utilizing \"incomplete aerothermoelastic testing,\" where estimated pressure and/or heating rates are artificially applied to the model [Doc 3].\n    *   Employing \"restricted purpose models\" to investigate specific facets of the complete aerothermoelastic problem independently [Doc 3].",
+    "top_docs": [
+      {
+        "doc_id": 51,
+        "title": "theory of aircraft structural models subjected to aerodynamic heating and external loads .",
+        "score": 0.253342
+      },
+      {
+        "doc_id": 878,
+        "title": "experimental model techniques and equipment for flutter investigations .",
+        "score": 0.212275
+      },
+      {
+        "doc_id": 486,
+        "title": "similarity laws for aerothermoelastic testing .",
+        "score": 0.211137
+      },
+      {
+        "doc_id": 573,
+        "title": "viscous hypersonic similitude .",
+        "score": 0.205275
+      },
+      {
+        "doc_id": 12,
+        "title": "some structural and aerelastic considerations of high speed flight .",
+        "score": 0.195054
+      }
+    ]
+  },
+  "2": {
+    "query": "what are the structural and aeroelastic problems associated with flight of high speed aircraft .",
+    "answer": "The structural and aeroelastic problems associated with high-speed aircraft flight are primarily thermal and aeroelastic in origin [Doc 1].\n\n**Structural Problems:**\n*   **Thermal Effects:** High-speed flight induces significant aerodynamic heating, leading to heat transfer from the boundary layer into the aircraft structure [Doc 1, Doc 3]. This creates thermal inputs that combine with external loads, influencing structural failure modes and requiring structures to withstand transient aerodynamic heating and external loads simultaneously [Doc 1, Doc 3]. Damage from jet efflux is also a structural concern [Doc 2].\n*   **Stiffness Requirements:** Designing for higher Mach numbers often results in thinner aerofoils and more slender fuselages, making it challenging to provide the necessary structural stiffness [Doc 2].\n*   **Combined Loads:** Structures must be designed to endure stresses and deformations resulting from the simultaneous effects of external loads and aerodynamic heating [Doc 3].\n\n**Aeroelastic Problems:**\n*   **Altered Aerodynamics:** Increasing Mach numbers lead to changes in aerodynamic derivatives, introducing new aeroelastic problems [Doc 2].\n*   **Flutter:** Control surface flutter is a specific aeroelastic phenomenon requiring prevention strategies [Doc 2].\n*   **Aerothermoelasticity:** The interaction between thermal effects and aeroelastic phenomena (kinetic heating) is a significant area of concern [Doc 1, Doc 2]. This field, termed aerothermoelasticity, specifically addresses these combined challenges [Doc 1].\n*   **Reduced Stiffness Contribution:** The difficulty in providing required stiffness for thinner and more slender high-Mach designs exacerbates aeroelastic issues [Doc 2].",
+    "top_docs": [
+      {
+        "doc_id": 12,
+        "title": "some structural and aerelastic considerations of high speed flight .",
+        "score": 0.368551
+      },
+      {
+        "doc_id": 746,
+        "title": "aeroelastic problems in connection with high speed flight .",
+        "score": 0.253496
+      },
+      {
+        "doc_id": 51,
+        "title": "theory of aircraft structural models subjected to aerodynamic heating and external loads .",
+        "score": 0.239717
+      },
+      {
+        "doc_id": 141,
+        "title": "free-flight techniques for high speed aerodynamic research .",
+        "score": 0.204372
+      },
+      {
+        "doc_id": 875,
+        "title": "models for aeroelastic investigation .",
+        "score": 0.191564
+      }
+    ]
+  },
+  "3": {
+    "query": "what problems of heat conduction in composite slabs have been solved so far .",
+    "answer": "Problems of heat conduction in composite slabs that have been addressed include:\n\n*   **Linear Heat Flow:** Determining temperature as a function of position and time in a composite slab where external surface temperatures are prescribed functions [Doc 1].\n*   **Total Heat Quantity Calculation:** A method for calculating the total quantity of heat passing through a unit area over a given time interval, which incorporates surface resistance by modeling it as an additional layer with appropriate thermal resistance and zero heat capacity [Doc 2].\n*   **One-Dimensional Transient Conduction with Linear Heat Input:** Analytic solutions for transient heat conduction in double-layer slabs exposed at one surface to a triangular heat rate (linear heat input) for a small time interval [Doc 3].\n*   **Heat Flow in Rocket Engine Walls:** Solutions for heat flow in composite walls (modeled as plane parallel composite slabs) under conditions typical of uncooled rocket engine walls. This involves obtaining analytic expressions, often in the form of Fourier sums, for the temperature distribution in a composite wall consisting of an inner refractory medium and an outer metallic medium. Specific conditions include Newtonian heat transfer into the first medium and negligible heat transfer from the second. Simplified results are also presented for limiting cases such as thin refractory shields with thick shielded media, and thick refractory shields with thin shielded media [Doc 4].",
+    "top_docs": [
+      {
+        "doc_id": 485,
+        "title": "linear heat flow in a composite slab .",
+        "score": 0.477649
+      },
+      {
+        "doc_id": 399,
+        "title": "conduction of heat in composite slabs .",
+        "score": 0.391644
+      },
+      {
+        "doc_id": 5,
+        "title": "one-dimensional transient heat conduction into a double-layer slab subjected to a linear heat input for a small time internal .",
+        "score": 0.370007
+      },
+      {
+        "doc_id": 144,
+        "title": "heat flow in composite slabs .",
+        "score": 0.29505
+      },
+      {
+        "doc_id": 181,
+        "title": "some problems on heat conduction in stratiform bodies .",
+        "score": 0.259407
+      }
+    ]
+  },
+  "5": {
+    "query": "what chemical kinetic system is applicable to hypersonic aerodynamic problems .",
+    "answer": "When a hypersonic object enters Earth's atmosphere, a shock wave forms, heating the air to high temperatures. To achieve equilibrium, molecular vibration excitation, dissociation, production of new molecules, and ionization processes occur simultaneously. The reaction rates depend on the changing temperature, density, and composition during relaxation toward equilibrium [Doc 4].\n\nThe chemical kinetic systems applicable to hypersonic aerodynamic problems involve coupled chemical rate processes in high-enthalpy inviscid hypersonic airflows [Doc 5]. These processes include:\n*   Dissociation-recombination reactions [Doc 5].\n*   Bimolecular-exchange reactions [Doc 5].\n*   Ionization reactions [Doc 5].\n\nSpecifically, bimolecular, no-exchange reactions are important for the kinetics of nitric oxide (NO) and nitrogen (N) atoms in blunt-nose flows and plane shock waves [Doc 5]. Gasdynamic expansion in a curved shock layer can reduce post-shock reaction rates, causing oxygen and nitrogen-atom concentrations to \"freeze\" in the nose region at levels below those for infinite-rate equilibrium [Doc 5]. In the considered regime, the chemical kinetics are dominated by two-body collision processes [Doc 5].\n\nFinite chemical kinetic effects also play a role in the temperature and chemical composition profiles within compressible free shear layers [Doc 3].",
+    "top_docs": [
+      {
+        "doc_id": 1032,
+        "title": "on the conservativeness of various distributed force systems .",
+        "score": 0.219857
+      },
+      {
+        "doc_id": 103,
+        "title": "theory of mixing and chemical reaction in the opposed jet diffusion flame .",
+        "score": 0.215037
+      },
+      {
+        "doc_id": 943,
+        "title": "compressible free shear layer with finite initial thickness .",
+        "score": 0.200766
+      },
+      {
+        "doc_id": 552,
+        "title": "chemical kinetics of high temperature air .",
+        "score": 0.192156
+      },
+      {
+        "doc_id": 401,
+        "title": "inviscid hypersonic airflows with coupled non-equilibrium processes .",
+        "score": 0.176187
+      }
+    ]
+  },
+  "10": {
+    "query": "are real-gas transport properties for air available over a wide range of enthalpies and densities .",
+    "answer": "Yes, real-gas transport properties for air are available over a wide range of enthalpies and densities.\n\nSpecifically:\n*   Approximations for the coefficients of viscosity and thermal conductivity for high-temperature air are tabulated from 500K to 15,000K over pressures ranging from 0.0001 to 100 atmospheres [Doc 1]. This covers a wide range of conditions relevant to enthalpy and density.\n*   Transport properties have been reported and used in calculations for partially ionized air, relevant for high-velocity ranges (25,000 to 40,000 ft/sec) [Doc 4].\n*   Computations involving real-gas laminar boundary layers have been performed over wide ranges of free-stream and wall enthalpies, implying the availability of necessary transport properties (e.g., Prandtl number corresponding to average enthalpy) for these conditions [Doc 2].\n*   Charts for equilibrium flow properties of air in hyper-velocity nozzles, including Reynolds number, have been computed for stagnation enthalpies up to 10,000 btu/lb and stagnation pressures up to 1,000 atmospheres [Doc 5].",
+    "top_docs": [
+      {
+        "doc_id": 302,
+        "title": "approximations for the thermodynamic and transport properties of high temperature air .",
+        "score": 0.268503
+      },
+      {
+        "doc_id": 493,
+        "title": "real-gas laminar boundary layer skin friction and heat transfer .",
+        "score": 0.247852
+      },
+      {
+        "doc_id": 1143,
+        "title": "a one-foot hypervelocity shock tunnel in which high-enthalpy real gas flows can be generated with flow times of about 180 milliseconds .",
+        "score": 0.233129
+      },
+      {
+        "doc_id": 524,
+        "title": "stagnation point heat transfer in partially ionized air .",
+        "score": 0.219343
+      },
+      {
+        "doc_id": 949,
+        "title": "charts for equilibrium flow properties of air in hyper-velocity nozzles .",
+        "score": 0.214038
+      }
+    ]
+  }
+}
